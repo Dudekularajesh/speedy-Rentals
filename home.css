@@ -1,0 +1,53 @@
+/*general styles*/
+body{
+    font-family: Arial, sans-serif;
+}
+.hero{
+    background-image: url("./hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80 vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.hero h1{
+    font-size: 3 rem;
+    color: red;
+
+}
+.cars img{
+    width: 100%;
+    height: auto;
+    border-radius:10px;
+}
+.testimonials{
+    font-style: italic;
+
+}
+.footer{
+    background-color: #222;
+    padding: 15px 0;
+
+}
+
+
+.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.dark-mode .navbar,
+.dark-mode .footer {
+    background-color: #1c1c1c;
+}
+
+.modal-box {
+    max-width: 400px;
+    background: white;
+    border-radius: 8px;
+}
+  

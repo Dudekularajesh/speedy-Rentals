@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="cars.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car List</title>
+  <style>
+    .car-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .car-item {
+      margin: 20px;
+      width: calc(33.33% - 20px);
+      background-color: #f0f0f0;
+      padding: 20px;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .car-image {
+      width: 100%;
+      height: 150px;
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+    .car-details {
+      margin-bottom: 20px;
+    }
+    .car-price {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .car-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .car-features li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Car List</h1>
+  <div class="car-list">
+    <div class="car-item">
+      <img class="car-image" src="pic.jpg" alt="Toyota Camry">
+      <div class="car-details">
+        <h2>Toyota Camry</h2>
+        <p class="car-price">$25,000</p>
+        <ul class="car-features">
+          <li>2.5L 4-Cylinder Engine</li>
+          <li>8-Speed Automatic Transmission</li>
+          <li>Heated Seats</li>
+          <li>Bluetooth Connectivity</li>
+        </ul>
+      </div>
+    </div>
+    <div class="car-item">
+      <img class="car-image" src="honda-civic.jpg" alt="Honda Civic">
+      <div class="car-details">
+        <h2>Honda Civic</h2>
+        <p class="car-price">$20,000</p>
+        <ul class="car-features">
+          <li>2.0L 4-Cylinder Engine</li>
+          <li>CVT Transmission</li>
+          <li>LED Headlights</li>
+          <li>Touchscreen Display</li>
+        </ul>
+      </div>
+    </div>
+    <div class="car-item">
+      <img class="car-image" src="ford-mustang.jpg" alt="Ford Mustang">
+      <div class="car-details">
+        <h2>Ford Mustang</h2>
+        <p class="car-price">$30,000</p>
+        <ul class="car-features">
+          <li>5.0L V8 Engine</li>
+          <li>6-Speed Manual Transmission</li>
+          <li>Leather Seats</li>
+          <li>Navigation System</li>
+        </ul>
+      </div>
+    </div>
+    <div class="car-item">
+      <img class="car-image" src="nissan-altima.jpg" alt="Nissan Altima">
+      <div class="car-details">
+        <h2>Nissan Altima</h2>
+        <p class="car-price">$22,000</p>
+        <ul class="car-features">
+          <li>2.5L 4-Cylinder Engine</li>
+          <li>CVT Transmission</li>
+          <li>Heated Seats</li>
+          <li>Bluetooth Connectivity</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

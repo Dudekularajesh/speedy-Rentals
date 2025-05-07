@@ -9,31 +9,47 @@
 ## 🌐 Live Demo
 
 👉 [View the website on GitHub Pages](https://Dudekularajesh.github.io/speedy-rentals/)  
-*(Replace `your-username` with your actual GitHub username)*
 
 ---
 
 ## 📁 Project Structure
 
-
 speedy-rentals/
+
 ├── home.html # Homepage with hero and car section
+
 ├── cars.html # Detailed list of available cars
+
 ├── Testimonials.html # Customer reviews
+
 ├── login.html # Login form for car booking
+
 ├── speedyrentals.html # Modern full-width car showcase
+
 ├── home.css # Main styling for homepage
+
 ├── speedyrentals.css # Styling for modern car cards
+
 ├── Testimonials.css # Styling for testimonial section
+
 ├── login.css # Login form styling
+
 ├── script.js # JS for interaction and UI logic
+
 └── images/
+
 ├── car1.jpg
+
 ├── car2.jpg
+
 ├── car3.jpg
+
 ├── honda-civic.jpg
+
 ├── ford-mustang.jpg
+
 ├── nissan-altima.jpg
+
 └── image1.jpg, image2.jpg, image3.jpg (testimonials)
 
 

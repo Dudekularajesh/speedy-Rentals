@@ -63,7 +63,7 @@ speedy-rentals/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/speedy-rentals.git
+git clone https://github.com/Dudekularajesh/speedy-rentals.git
 cd speedy-rentals
 
 Acknowledgements
